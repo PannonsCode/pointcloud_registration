@@ -1,0 +1,7 @@
+scipy
+scikit-learn
+matplotlib
+mayavi
+open3d
+json
+

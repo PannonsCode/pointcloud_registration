@@ -1,0 +1,16 @@
+{
+	"pth_source": "./data/bunny/bun000.ply",
+	"pth_target": "./data/bunny/bun045.ply",
+	"reduce_pc":{"flag":false,
+				 "reduction_factor":0.5},
+	"compute_curvatures":{"flag":false,
+						  "curv_source":"./data/bunny/umbrella_000.txt",
+						  "curv_target":"./data/bunny/umbrella_045.txt"},
+	"curvature_method":"umbrella",
+	"k_neighboors":8,
+	"add_noise":{"flag":false,
+				 "mean":[0,0,0],
+				 "variance":0.005},
+	"correlation_method":"find_correlations",
+	"iterations":100
+	}
